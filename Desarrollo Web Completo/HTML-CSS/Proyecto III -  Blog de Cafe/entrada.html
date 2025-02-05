@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe Blog</title>
+
+    <!--Prefetch: Para "prcecargar la siguiente pagina que el usuario visite"-->
+
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!--Preload--><!--Todo esto ayudara a una carga mas rapida (solo usarse en lo que se requiera con mas prioridad)-->
+
+    <link rel="preload" href="styles/normalize.css" as="style">
+        <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preload" href="styles/styles.css" as="style">
+        <link rel="stylesheet" href="styles/styles.css" as="style">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" as="font">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="font">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="font">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="font">
+
+    <link rel="preload" href="img/blog1.jpg" as="image">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contactos</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Cafe con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+            <h3 class="centrar-texto">Entrada Blog</h3>
+
+            <img src="img/blog1.jpg" alt="entrada-imagen">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed turpis felis. Aenean commodo finibus dolor id efficitur. Pellentesque ipsum risus, pharetra sit amet varius vulputate, iaculis at orci. Praesent ac arcu ut nibh placerat pellentesque. Donec eget ex felis. Mauris vitae lobortis massa, quis ultrices mauris. Vestibulum a tincidunt nulla.</p>
+
+            <p>Aliquam iaculis dui ipsum, a ullamcorper erat sagittis ac. Quisque nec leo ut nisi tempor varius. Nullam congue neque vel libero egestas, in ultricies magna ullamcorper. Praesent sagittis tincidunt lorem at facilisis. Ut ac dapibus orci. Nullam eu elementum risus. Donec lacinia consectetur justo, sed sagittis massa maximus ut. Vivamus gravida dignissim ex, id imperdiet turpis ornare ac. Donec lacus diam, interdum sit amet imperdiet ut, interdum sed nulla. Mauris non lorem pretium, molestie nisi quis, pellentesque diam. Nunc vitae dignissim leo. Maecenas scelerisque in ligula sit amet tincidunt.</p>
+
+            <p>Integer sit amet leo augue. Nam tristique blandit ligula. Pellentesque eget velit velit. Aliquam id faucibus ex. Fusce quis lorem id lorem dignissim pellentesque. Vestibulum dictum velit quis consequat blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce consequat massa at justo blandit, ac iaculis magna laoreet. Vivamus id dapibus tellus. Sed nec urna in mi porta fringilla condimentum in libero. Nullam a rutrum nulla. </p>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contactos</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
