@@ -9,8 +9,6 @@ const producto = {
     estado: true,
 }
 
-
-
 //Sintaxis de Punto
 //Sirve para acceder a las distintas propiedades del producto
     /*console.log(producto.nombreProducto);
