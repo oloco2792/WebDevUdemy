@@ -21,7 +21,7 @@ meses.forEach(function(mes){
 })
 */
 
-//Metodos para los Arrays
+//METODOS PARA LOS ARRAYS
 
 /*numeros[5] = 60; //Si intentas modificar un valor que no existe, se añadira al array
 
@@ -33,7 +33,17 @@ console.table(numeros)*/
 
 numeros.unshift(-10, -20, -30) //Igual que .push pero al inicio
 
-numeros.pop() //Elimina el Ultimo elemento del array
-numeros.shift() //Elimina el primer elemento del array
+//numeros.pop() //Elimina el Ultimo elemento del array
+//numeros.shift() //Elimina el primer elemento del array
 
-console.table(numeros)
+//meses.splice(2, 1) //1er Valor: Busca ese indice --- 2do valor: Elimina esa cantidad de elemntos desde el indice hacia adelante
+// console.table(numeros);
+
+//El problema es que esa sintaxis modifica el array original, y eso no es muy bueno
+
+const nuevoArreglo = [...meses, 'Junio']
+
+//Tambien puedes hacer ['Junio', ...meses] para lograr el efecto de unshift
+
+console.table(nuevoArreglo)
+

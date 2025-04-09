@@ -1,5 +1,5 @@
 "use strict"; 
-//JS corre en modo "chill" normalmente, ignorando algunos errores y falta de buenas practicas.
+//JS suele correr en modo "chill" normalmente, ignorando algunos errores y falta de buenas practicas.
 //Con "use strict", puedes hacer que no lo haga, tirandonos un error
 //Object Methods
 const producto = {

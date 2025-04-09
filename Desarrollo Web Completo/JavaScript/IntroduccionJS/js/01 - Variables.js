@@ -14,8 +14,8 @@ var producto = "Audifonos Gamer"; //Crear variable y asignar valor
 
 var disponibilidad
 
-//Los el punto y coma ; no son del todo importantes en JS, a diferencia de otros lenguajes
-//Tampoco tienes declarar el que tipo de valor tiene una variable (string, booleano, etc)
+//Los punto y coma ; no son del todo importantes en JS, a diferencia de otros lenguajes
+//Tampoco tienes declarar que tipo de valor tiene una variable (string, booleano, etc)
 
 producto = true;
 disponibilidad = 2;
