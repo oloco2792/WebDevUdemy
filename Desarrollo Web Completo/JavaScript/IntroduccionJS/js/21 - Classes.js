@@ -1,36 +1,31 @@
-// CLASSES
+//CLASES EN JS
+//La primera letra del nombre de la clase va en mayusucla
 
 class Producto {
     constructor(nombre, precio){
         this.nombre = nombre;
         this.precio = precio;
+        
     }
 
     formatearProducto(){
-        return `El producto ${this.nomnbre} tiene un precio de: $ ${this.precio}`;
+        return `El Producto ${this.nombre} tiene un precio de: $ ${this.precio}.`
     }
 }
 
-const producto = new Producto();
+const producto = new Producto('Raton Gamer', 400);
 
-const producto2 = new Producto('Monitor Curvo de 49"', 800)
-const producto3 = new Producto('Laptop', 300);
+console.log(producto)
 
 //HERENCIA
-//AL añadir extends y la otra clase, esta clase heredara el constructor y los metodos de la otra clase
+
 class Libro extends Producto{
     constructor(nombre, precio, isbn){
-        //Al usar super puedes usar los valores del constructor padre
         super(nombre, precio);
         this.isbn = isbn;
     }
-
-    formatearProducto(){
-        return `${super.formatearProducto()}Y su ISBN es ${this.isbn}`;
-    }
 }
 
-const libro = new Libro('JavaScript: La Revolucion', 120, '213123123133489593')
+const libro = new Libro('Yo SOy Dios', 120, '127831872378132');
 
-console.log(libro.formatearProducto() )
-console.log(producto2.formatearProducto() )
+console.log(libro.formatearProducto());
