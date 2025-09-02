@@ -2,9 +2,11 @@
   "name": "festival_musica",
   "version": "1.0.0",
   "description": "Ejercicio de JS",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:dist/css",
+    "hola": "gulp hola"
   },
   "keywords": [
     "SASS",
@@ -13,6 +15,8 @@
   "author": "Oloco2792",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.91.0"
   }
 }
